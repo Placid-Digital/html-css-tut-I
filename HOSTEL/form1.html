@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com -->
+  <title>satkar hostel</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="hostel.css">
+ <a href="https://icons8.com/icon/8694/restaurant">Restaurant icon by Icons8</a>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Oswald:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <img src="C:\xampp\htdocs\HOSTEL\image\logo.png" class="logo1"><a class="navbar-brand" href="main.html"></a></img>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="main.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="sevices.html">Services</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="#contact">Career</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br>
+<br>
+<br>
+<div class="container">
+<center><h1>Get in touch</h1></center>
+<div class="row">
+<div class="col-sm-5">
+<img src="C:\xampp\htdocs\HOSTEL\image\contact-us.gif" width="400px" height="500px;">
+  </div>
+<div class="col-sm-7">
+<form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Enter your name">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Enter your lastname.">
+	
+	<label for="email">Email-id</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email-id">
+	<br>
+	<label for="email">Contact no</label>
+    <input type="tel" id="contact" name="contact" placeholder="Enter your Contact no.">
+    <label for="qualification">Qualification</label>
+    <select id="qualification" name="qualification">
+      <option value="Graduate">Graduate</option>
+      <option value="Post-Graduate">Post-Graduate</option>
+      <option value="usa">B.E</option>
+	  <option value="usa">M.tech</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+  </div>
+  
+</div>  
+</div>
+<br>
+<br>
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">Contact Details</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Indore (M.P)</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +91 8871580451</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+    </div>
+    <div class="col-sm-7 slideanim">
+      <img src="C:\xampp\htdocs\HOSTEL\image\google-maps-satellite.png" width="500px" height="200px">
+        </div>
+      </div>
+    </div>
+
+
+<!-- Image of location/map -->
+
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Satkar Hostel<a href="main.html" title="Visit Hostel">www.abc.com</a></p>
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
+</html>
