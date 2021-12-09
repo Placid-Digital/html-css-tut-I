@@ -17,7 +17,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Oswald:wght@700&display=swap" rel="stylesheet">
 </head>
 
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" class="body">
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -30,13 +30,12 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#myPage">HOME</a></li>
+        <li class="active"><a href="">HOME</a></li>
         <li><a href="about.html">ABOUT</a></li>
         <li><a href="services.html">SERVICES</a></li>
         <li><a href="form1.html">CONTACT</a></li>
-		<li><a href="form1.html">CAREER</a></li>
-		<li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
-      </ul>
+		<li><a href="career.html">CAREER</a></li>
+		</ul>
     </div>
   </div>
 </nav>
@@ -56,7 +55,7 @@
      <div class="item active">
         <img src="image\HRH_Ibiza_Rock_Star_Suite_001467.jpeg" alt="Los Angeles" style="width:100%; height:500px;">
 		<div class="carousel-caption">
-          <h3>Welcome to Satkar hostel</h3>
+          <h1 class="welcome"><strong>Welcome to Satkar hostel</strong></h1>
           <h3>AWAY FROM MONOTONOUS LIFE <br>Relax Your Mind</h3>
         </div>
      </div>
@@ -64,7 +63,7 @@
       <div class="item">
         <img src="image\pool-951401-1613368212.jpg" alt="Chicago" style="width:100%;height:500px;">
 		<div class="carousel-caption">
-          <h3>Welcome to Satkar hostel</h3>
+           <h1 class="welcome"><strong>Welcome to Satkar hostel</strong></h1>
           <h3>AWAY FROM MONOTONOUS LIFE <br>Relax Your Mind</h3>
         </div>
       </div>
@@ -72,7 +71,7 @@
       <div class="item">
         <img src="image\accomo1.jpg" alt="New york" style="width:100%;height:500px;">
 		<div class="carousel-caption">
-          <h3>Welcome to Satkar hostel</h3>
+           <h1 class="welcome"><strong>Welcome to Satkar hostel</strong></h1>
           </h3>AWAY FROM MONOTONOUS LIFE <br>Relax Your Mind</h3>
         </div>
       </div>
@@ -139,7 +138,7 @@
         </div>
         <div class="panel-body">
           <p><strong>1</strong> Bed</p>
-          <p><strong>free</strong>Breakfast/Day</p>
+          <p><strong>free</strong> Breakfast/Day</p>
           <p><strong>1</strong> Wardrobe</p>
          </div>
         <div class="panel-footer">
@@ -156,13 +155,13 @@
         </div>
         <div class="panel-body">
           <p><strong>1</strong> Bed</p>
-          <p><strong>free</strong>Breakfast/Day</p>
+          <p><strong>free</strong> Breakfast/Day</p>
           <p><strong>1</strong> Wardrobe</p>
          </div>
         <div class="panel-footer">
           <h3>Rs 5000</h3>
           <h4>per month</h4>
-          <button class="btn btn-lg">Book Now!</button>
+          <button class="btn btn-lg"> Book Now!</button>
         </div>
       </div>      
     </div>       
@@ -173,7 +172,7 @@
         </div>
         <div class="panel-body">
           <p><strong>1</strong> Bed</p>
-          <p><strong>free</strong>Breakfast/Day</p>
+          <p><strong>free</strong> Breakfast/Day</p>
           <p><strong>1</strong> Wardrobe</p>
          </div>
         <div class="panel-footer">
@@ -186,26 +185,28 @@
   </div>
 </div>
 
-<!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center">Contact Details</h2>
-  <div class="row">
-    <div class="col-sm-5">
-      <p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span>Indore (M.P)</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +91 8871580451</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
-    </div>
-    <div class="col-sm-7 slideanim">
-      <img src="C:\xampp\htdocs\HOSTEL\image\google-maps-satellite.png" width="500px" height="200px">
+<section class="contact section" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="ml-auto col-lg-5 col-md-6 col-12">
+        <h2 class="mb-4 pb-2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">Feel free to ask anything</h2>
+        <form action="#" method="post" class="contact-form webform aos-init" data-aos="fade-up" data-aos-delay="400" role="form">
+          <input type="text" class="form-control" name="cf-name" placeholder="Name">
+          <input type="email" class="form-control" name="cf-email" placeholder="Email">
+          <textarea class="form-control" rows="5" name="cf-message" placeholder="Message"></textarea><br>
+          <button type="submit" class="form-control" id="submit-button" name="submit">Send Message</button>
+        </form>
+      </div>
+      <div class="mx-auto mt-4 mt-lg-0 mt-md-0 col-lg-5 col-md-6 col-12">
+        <h2 class="mb-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="600">Where you can <span>find us</span></h2>
+        <p data-aos="fade-up" data-aos-delay="800" class="aos-init"><i class="fa fa-map-marker mr-1"></i>Indore(m.p)</p>
+        <div class="google-map aos-init" data-aos="fade-up" data-aos-delay="900">
+          <iframe src="https://maps.google.com/maps?q=Av.+Lúcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" width="450" height="250" frameborder="0" style="border:0;"></iframe>
         </div>
       </div>
     </div>
-
-
-<!-- Image of location/map -->
-
-
+  </div>
+</section>
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>

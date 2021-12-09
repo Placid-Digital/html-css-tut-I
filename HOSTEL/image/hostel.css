@@ -1,0 +1,335 @@
+.body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+  }
+ .body h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+ .body h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: black;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }  
+
+
+.image {
+  margin:auto;
+  width:100%;
+  height: 500px;
+}
+
+
+
+  .jumbotron {
+  position: relative;
+  width: 950px;
+  margin: auto;
+  }
+
+
+
+.jumbotron .centered {
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  font-size:30px;
+  color:white;
+  margin-bottom:400px;
+}
+ 
+ .carousel-caption {
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  font-size:30px;
+  color:white;
+ }
+ 
+  
+  .logo {
+   width:400px;
+   height:400px;
+  }
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail img {
+    width: 80%;
+    height: 100%;
+    margin-bottom: 10px;
+	border-radius: 8px;
+  }
+  .thumbnail:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+  }
+  
+  .panel {
+    border: 1px solid #f4511e; 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+    border: 1px solid white;
+    background-color: #ff8533	!important;
+    color: white;
+  }
+  .panel-heading {
+    color: #fff !important;
+    background-color: #ff8533 !important;
+    padding: 18px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+    background-color: white !important;
+  }
+  .panel-footer h3 {
+    font-size: 15px;
+  }
+  .panel-footer h4 {
+    color: black;
+    font-size: 14px;
+  }
+  .panel-footer .btn {
+    margin: 15px 0;
+    background-color: #ff8533;
+    color: #fff;
+  }
+ .navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: white;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+	height:60px;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    color: #ff8533 !important;
+  }
+  .navbar-nav li a:hover {
+    color: white !important;
+	 background-color:#ff8533 !important;
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#ff8533 !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color:white;
+  }
+  .open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+    color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+    background-color: red !important;
+  }
+  footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
+  }
+  
+  .logo1
+  
+  {
+  height:50px;
+  }
+
+p
+{color:black;}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+  }
+  
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+	transition: width 2s;
+  }
+  .thumbnail p {
+    margin-top: 15px;
+    color: #555;
+  }
+  .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+  }
+input[type=tel], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+  
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.container1
+{
+margin-top:100px;
+margin-left:20px;
+width:50%;	
+background-color:#000066;
+padding-left:20px;
+padding-right:20px;
+padding-top:20px;
+padding-bottom:20px;
+}
+
+.container1 h1{color:white;}
+
+.form
+{padding-left:20px;
+padding-right:20px;
+padding-top:20px;
+padding-bottom:20px;}
+
+.welcome
+{color:#ffbf00;
+text-align:center;}
+
+.images
+{width:950px;
+height:400px;
+margin:auto;}
+
+.facilities_area .bg-parallax {
+    background: url(../image\unnamed.jpg) ;
+    opacity: 0.15;
+}
+.overlay.bg-parallax {
+}
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 125%;
+    bottom: 0;
+    z-index: -1;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}

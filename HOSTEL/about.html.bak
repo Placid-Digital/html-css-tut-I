@@ -15,6 +15,7 @@
  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Oswald:wght@700&display=swap" rel="stylesheet">
+
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -31,29 +32,23 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="main.html">HOME</a></li>
-        <li><a href="#myPage">ABOUT</a></li>
-        <li><a href="#Accomodation">SERVICES</a></li>
-        <li><a href="form">CONTACT</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">CAREER
-          <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">NAME</a></li>
-            <li><a href="#">QUALIFICATION</a></li>
-            <li><a href="#">BRANCH</a></li> 
-          </ul>
-        </li>
-        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
-      </ul>
+        <li class="active"><a href="">ABOUT</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="form1.html">CONTACT</a></li>
+		<li><a href="career.html">CAREER</a></li>
+       </ul>
     </div>
   </div>
 </nav>
-<div class="jumbotron text-center">
-  <img src="C:\xampp\htdocs\HOSTEL\image\best-about-us-pages.jpg" class="image">
-  <div class="centered"><strong>About Satkar Hostel</strong><br>
-  </div>
-</div>  
-
+ <div class="container">
+	<div class="item active">
+        <img src="image\abstract-blur-hotel-lobby_74190-4475.jpg" class="images">
+		<div class="carousel-caption">
+          <h1 class="welcome"><strong>About Satkar Hostel</strong></h1>
+          <h3>AWAY FROM MONOTONOUS LIFE <br>Relax Your Mind</h3>
+        </div>
+     </div>
+	 </div>
 <div id="services" class="container-fluid text-center">
   <h2>Our Facilities</h2>
   <h4>What we offer</h4>
@@ -95,115 +90,80 @@
   </div>
 </div>
 
-<div id="portfolio" class="container-fluid text-center bg-grey">
-  <h2>Our Rooms</h2><br>
-  <h4>What we have created</h4>
-  <div class="row text-center slideanim">
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="C:\xampp\htdocs\HOSTEL\image\photo-1590490360182-c33d57733427.jpg" alt="Paris" width="400" height="300">
-        <p><strong>Single Private Ensuit</strong></p>
-        <p>Contains 1 single bed, desk, flat screen tv, hair dryer, wardrobe & towels.</p>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="C:\xampp\htdocs\HOSTEL\image\photo-1590490360182-c33d57733427.jpg" alt="New York" width="400" height="300">
-        <p><strong>Single Private Ensuit</strong></p>
-        <p>Contains 1 single bed, desk, flat screen tv, hair dryer, wardrobe & towels.</p>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="C:\xampp\htdocs\HOSTEL\image\photo-1590490360182-c33d57733427.jpg" alt="San Francisco" width="400" height="300">
-        <p><strong>Single Private Ensuit</strong></p>
-        <p>Contains 1 single bed, desk, flat screen tv, hair dryer, wardrobe & towels.</p>
-      </div>
-    </div>
-  </div><br>
+  <section class="facilities_area section_gap">
+            <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background="">  
+            </div>
+            <div class="container">
+                <div class="section_title text-center">
+                    <h2 class="title_s">SATKAR FACILITIES</h2>
+                    <p class="title_s">Who are in extremely love with eco friendly system.</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="facilities_item">
+                            <h4 class="title_m"><i class="lnr lnr-dinner"></i><strong>Restaurant</strong></h4>
+                            <p class="title_w">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="facilities_item">
+                            <h4 class="title_m"><i class="lnr lnr-bicycle"></i><strong>Sports CLub</strong></h4>
+                            <p class="title_w">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="facilities_item">
+                            <h4 class="title_m"><i class="fas fa-swimming-pool"></i></i><strong>Swimming Pool</strong></h4>
+                            <p class="title_w">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="facilities_item">
+                            <h4 class="title_m"><i class="lnr lnr-car"></i><strong>Rent a Car</strong></h4>
+                            <p class="title_w">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="facilities_item">
+                            <h4 class="title_m"><i class="lnr lnr-construction"></i><strong>Gymnesium</strong></h4>
+                            <p class="title_w">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="facilities_item">
+                            <h4 class="title_m"><i class="lnr lnr-coffee-cup"></i>Bar</h4>
+                            <p class="title_w">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
   
   
-<!-- Container (Pricing Section) -->
-<div id="pricing" class="container-fluid">
-  <div class="text-center">
-    <h2>Pricing</h2>
-    <h4>Choose a payment plan that works for you</h4>
-  </div>
-  <div class="row slideanim">
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Single room</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>1</strong> Bed</p>
-          <p><strong>free</strong>Breakfast/Day</p>
-          <p><strong>1</strong> Wardrobe</p>
-         </div>
-        <div class="panel-footer">
-          <h3>Rs 5000</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Book Now!</button>
-        </div>
-      </div>      
-    </div>     
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-           <h1>Single room</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>1</strong> Bed</p>
-          <p><strong>free</strong>Breakfast/Day</p>
-          <p><strong>1</strong> Wardrobe</p>
-         </div>
-        <div class="panel-footer">
-          <h3>Rs 5000</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Book Now!</button>
-        </div>
-      </div>      
-    </div>       
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-           <h1>Single room</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>1</strong> Bed</p>
-          <p><strong>free</strong>Breakfast/Day</p>
-          <p><strong>1</strong> Wardrobe</p>
-         </div>
-        <div class="panel-footer">
-          <h3>Rs 5000</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Book Now!</button>
-        </div>
-      </div>      
-    </div>    
-  </div>
-</div>
-
-<!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center">Contact Details</h2>
-  <div class="row">
-    <div class="col-sm-5">
-      <p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span>Indore (M.P)</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +91 8871580451</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
-    </div>
-    <div class="col-sm-7 slideanim">
-      <img src="C:\xampp\htdocs\HOSTEL\image\google-maps-satellite.png" width="500px" height="200px">
+  
+  
+<section class="contact section" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="ml-auto col-lg-5 col-md-6 col-12">
+        <h2 class="mb-4 pb-2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">Feel free to ask anything</h2>
+        <form action="#" method="post" class="contact-form webform aos-init" data-aos="fade-up" data-aos-delay="400" role="form">
+          <input type="text" class="form-control" name="cf-name" placeholder="Name">
+          <input type="email" class="form-control" name="cf-email" placeholder="Email">
+          <textarea class="form-control" rows="5" name="cf-message" placeholder="Message"></textarea><br>
+          <button type="submit" class="form-control" id="submit-button" name="submit">Send Message</button>
+        </form>
+      </div>
+      <div class="mx-auto mt-4 mt-lg-0 mt-md-0 col-lg-5 col-md-6 col-12">
+        <h2 class="mb-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="600">Where you can <span>find us</span></h2>
+        <p data-aos="fade-up" data-aos-delay="800" class="aos-init"><i class="fa fa-map-marker mr-1"></i>Indore(m.p)</p>
+        <div class="google-map aos-init" data-aos="fade-up" data-aos-delay="900">
+          <iframe src="https://maps.google.com/maps?q=Av.+Lúcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" width="450" height="250" frameborder="0" style="border:0;"></iframe>
         </div>
       </div>
     </div>
-
-
-<!-- Image of location/map -->
-
-
+  </div>
+</section>
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>

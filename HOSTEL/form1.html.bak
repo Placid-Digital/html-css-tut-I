@@ -33,9 +33,9 @@
         <li><a href="main.html">HOME</a></li>
         <li><a href="about.html">ABOUT</a></li>
         <li><a href="services.html">SERVICES</a></li>
-        <li><a href="#myPage">CONTACT</a></li>
-       <li><a href="form">CAREER</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+        <li class="active"><a href="">CONTACT</a></li>
+		<li><a href="career.html">CAREER</a></li>
+        
       </ul>
     </div>
   </div>
@@ -47,10 +47,10 @@
 <center><h1>Get in touch</h1></center>
 <div class="row">
 <div class="col-sm-5">
-<img src="C:\xampp\htdocs\HOSTEL\image\contact-us.gif" width="400px" height="500px;">
+<img src="https://cdn.pixabay.com/photo/2015/12/03/22/15/tablet-1075790__340.jpg" class="cnct"><h1>Get in touch</h1>
   </div>
 <div class="col-sm-7">
-<form action="/action_page.php">
+<form action="/action_page.php" class="frm">
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Enter your name">
 
@@ -78,24 +78,6 @@
 </div>
 <br>
 <br>
-<div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center">Contact Details</h2>
-  <div class="row">
-    <div class="col-sm-5">
-      <p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span>Indore (M.P)</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +91 8871580451</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
-    </div>
-    <div class="col-sm-7 slideanim">
-      <img src="C:\xampp\htdocs\HOSTEL\image\google-maps-satellite.png" width="500px" height="200px">
-        </div>
-      </div>
-    </div>
-
-
-<!-- Image of location/map -->
-
 
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">

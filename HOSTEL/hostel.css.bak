@@ -1,19 +1,19 @@
-body {
+.body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
     color: #818181;
   }
-  h2 {
+ .body h2 {
     font-size: 24px;
     text-transform: uppercase;
-    color: #303030;
+    color: black;
     font-weight: 600;
     margin-bottom: 30px;
   }
-  h4 {
+ .body h4 {
     font-size: 19px;
     line-height: 1.375em;
-    color: #303030;
+    color: black;
     font-weight: 400;
     margin-bottom: 30px;
   }  
@@ -29,14 +29,13 @@ body {
 
   .jumbotron {
   position: relative;
-  width: 1200px;
+  width: 950px;
   margin: auto;
   }
 
 
 
 .jumbotron .centered {
-  position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
@@ -52,8 +51,11 @@ body {
   color: #f1f1f1;
   font-size:30px;
   color:white;
+  margin-bottom:200px;
  }
- 
+
+
+
   
   .logo {
    width:400px;
@@ -65,11 +67,17 @@ body {
     border-radius: 0;
   }
   .thumbnail img {
-    width: 100%;
+    width: 80%;
     height: 100%;
     margin-bottom: 10px;
+	border-radius: 8px;
+	opacity:0.8;
   }
-  .thumbnail:hover {opacity:0.7;
+  .thumbnail img:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+  opacity:1.0;
   }
   
   .panel {
@@ -81,14 +89,14 @@ body {
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   }
   .panel-footer .btn:hover {
-    border: 1px solid #f4511e;
-    background-color: #fff !important;
-    color: #f4511e;
+    border: 1px solid white;
+    background-color: #ff8533	!important;
+    color: white;
   }
   .panel-heading {
     color: #fff !important;
-    background-color: black !important;
-    padding: 25px;
+    background-color: #ff8533 !important;
+    padding: 18px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
@@ -99,15 +107,15 @@ body {
     background-color: white !important;
   }
   .panel-footer h3 {
-    font-size: 32px;
+    font-size: 15px;
   }
   .panel-footer h4 {
-    color: #aaa;
+    color: black;
     font-size: 14px;
   }
   .panel-footer .btn {
     margin: 15px 0;
-    background-color: #f4511e;
+    background-color: #ff8533;
     color: #fff;
   }
  .navbar {
@@ -117,7 +125,7 @@ body {
     border: 0;
     font-size: 11px !important;
     letter-spacing: 4px;
-	height:60px;
+	height:80px;
   }
   .navbar li a, .navbar .navbar-brand { 
     color: #ff8533 !important;
@@ -228,6 +236,7 @@ input[type=submit] {
     padding: 0 0 15px 0;
     border: none;
     border-radius: 0;
+	transition: width 2s;
   }
   .thumbnail p {
     margin-top: 15px;
@@ -235,13 +244,14 @@ input[type=submit] {
   }
   .btn {
     padding: 10px 20px;
-    background-color: #333;
-    color: #f1f1f1;
-    border-radius: 0;
+    background-color:green;
+    color: white;
+    border-radius: 2px;
     transition: .2s;
+	border: 1px solid green;
   }
   .btn:hover, .btn:focus {
-    border: 1px solid #333;
+    border: 1px solid white;
     background-color: #fff;
     color: #000;
   }
@@ -281,4 +291,92 @@ input[type=submit]:hover {
   margin: 4px 2px;
   cursor: pointer;
 }
+
+.container1
+{
+margin:auto;
+width:50%;	
+background-color:black;
+padding-left:20px;
+padding-right:20px;
+padding-top:80px;
+padding-bottom:20px;
+color:white;
+opacity:0.9;
+}
+
+
+
+.form
+{padding-left:20px;
+padding-right:20px;
+padding-top:20px;
+padding-bottom:20px;}
+
+.welcome
+{color:#ffbf00;
+text-align:center;}
+
+.images
+{width:950px;
+height:500px;
+margin:auto;}
+
+.facilities_area
+{background-color:black;
+color:white;}
+
+
+.title_w
+{border: 1px solid #777777;
+    border-radius: 10px;
+    background-color: rgba(249, 249, 255, 0.102);
+    padding: 31px 40px 37px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.title_w:hover
+{background-color: black;
+}
+
+.title_m
+{color:white;
+text-align:center;
+}
+.title_s
+{color:white;
+text-align:center;padding-bottom:20px;
+}
+.row
+{margin:auto;}
+
+.section {
+    padding: 7rem 0;
+}
+.container-fluid
+{margin-top:20px;}
+
+.services
+{margin:auto;
+margin-top:90px;
+text-align:center;}
+
+.img-responsive
+{border-bottom-left-radius:20px;
+border-top-right-radius:20px;}
+.img-responsive:hover
+{transform: rotateY(45deg);}
+
+.cnct
+{height:600px;
+width:900px;
+margin:auto;}
+
+.frm
+{width:400px;
+color:white;
+background-color:black;
+opacity:0.9;
+margin:auto;
+padding:20px;margin-top:20px;}
 
