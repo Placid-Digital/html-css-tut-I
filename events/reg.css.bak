@@ -43,7 +43,7 @@ img.avatar {
 
 .container {
   padding: 16px;
-  
+
   
 }
 
@@ -63,7 +63,7 @@ span.psw {
   }
 }
 .login
-{width:350px;
+{width:4000px;
 margin:auto;
 background-color:white;
 }
