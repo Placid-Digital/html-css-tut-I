@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<h1 id="demo"></h1>
+<script>
+const person ={
+firstname:"shivani",
+middlename:"chourasiya",
+lastname:"dilwariya",
+id:"161",
+name: function() {
+    return this.firstname + " " + this.middlename + " " + this.lastname;
+}
+
+};
+document.getElementById("demo").innerHTML = person.name();
+
+</script>
+<button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+</body>
+</html>
+
+
+
+
+

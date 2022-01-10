@@ -1,0 +1,48 @@
+a,
+.author-link a:hover,
+.entry-title a:hover,
+.post .comments-link a:hover,
+#topmenu > li:hover > a,
+#topmenu li.current-menu-item a,
+#topmenu ul a:hover,
+.widget .post > h3 a:hover,
+.widget_g7_twitter .follow-us:hover,
+.category1 .widgettitle a:hover,
+.category2 .widgettitle a:hover,
+.widget_g7_social li a:hover,
+.widget_g7_subpages li a:hover,
+.widget_g7_subpages li.current_page_item a {
+	color: #EE311E;
+}
+#mainmenu,
+#mainmenu ul,
+#mainmenu ul a:hover,
+.category1 .widgettitle,
+.category2 .widgettitle {
+	border-color: #EE311E;
+}
+#mainmenu > li.current-menu-item > a,
+#mainmenu > li.current_page_item > a,
+#searchbtn,
+#submit,
+.btn,
+.post a.readmore:hover,
+.post a.author:hover,
+.post .category a,
+.pagination a:hover,
+.pagination span.current,
+.widget_g7_tabs ul.tabs li a.active {
+	background-color: #EE311E;
+}
+.post .category a {
+	background-color: #EE311E;
+	background-color: rgba(238, 49, 30, 0.9);
+}
+.flex-caption .category a,
+.flex-caption h2 a:hover {
+	color: #ff5946;
+}
+.flex-control-paging li a.flex-active {
+	background-color: #ff5946;
+	background-color: rgba(238, 49, 30, 0.8);
+}
